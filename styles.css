@@ -116,6 +116,28 @@ body {
     text-align-last: center;
 }
 
+/* quote section */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 200px 60px;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source {
+    font-weight: 500;
+    align-self: flex-end;
+}
+
 ul {
     list-style: none;
 }
