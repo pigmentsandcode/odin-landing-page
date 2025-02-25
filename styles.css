@@ -74,6 +74,48 @@ body {
     height: 275px;
 }
 
+/* Information section */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 48px 50px;
+    gap: 8px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.info-card {
+    color: #1f2937;
+    font-size: 14px;
+    width: 156px;
+    text-align: justify;
+    text-align-last: center;
+}
+
 ul {
     list-style: none;
 }
