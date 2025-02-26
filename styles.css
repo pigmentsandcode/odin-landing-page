@@ -168,6 +168,18 @@ body {
     font-size: 16px;
 }
 
+/* Footer section */
+.footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Element tags */
+
 ul {
     list-style: none;
 }
